@@ -251,6 +251,18 @@ footer p{
   html {
     font-size: 12px;
   }
+  .header-top {
+    justify-content: space-around;
+  }
+  .logo{
+    width: 40%;
+  }
+  .header-top .logo img {
+    width: 95%;
+  }
+  .header-content .item-1{
+    width: 60%;
+  }
   .card-1{
     flex-direction: column-reverse;
   }
@@ -300,14 +312,31 @@ footer p{
   margin-top:  2rem;
 }
 }
+
 @media only screen and (max-width: 376px) {
-  .btn-1{
-    width: auto;
-  }
-  card-2 button {
-    width: 70%;
-  }
+.header-top .btn{
+  padding: 0.5rem 1rem;
 }
+.header-content .item-1{
+  width:90%;
+}
+.header-content .item-1 h2{
+  font-size: 1.5rem;
+}
+.btn-1{
+  width: auto;
+}
+card-2 button {
+  width: 70%;
+}
+}
+
+
+
+
+
+
+
 
 
 
